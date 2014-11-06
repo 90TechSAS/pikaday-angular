@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('angularPikaday', [])
-  .directive('pikaday', function() {
+angular.module('zenlabs.directives', [])
+  .directive('zlPikaday', function() {
   return {
     restrict: 'A',
     scope: {
