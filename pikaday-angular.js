@@ -5,7 +5,7 @@ angular.module('zenlabs.directives', [])
   return {
     restrict: 'A',
     scope: {
-      pikaday: '=',
+      zlPikaday: '=',
     },
     link: function (scope, elem, attrs) {
 
@@ -39,7 +39,7 @@ angular.module('zenlabs.directives', [])
           });
         }
       });
-      scope.pikaday = picker;
+      scope.zlPikaday = picker;
 
       scope.$on('$destroy', function () {
         picker.destroy();
