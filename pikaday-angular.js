@@ -1,4 +1,5 @@
-'use strict';
+(function() {
+  'use strict';
 
 angular.module('zenlabs.directives', [])
   .directive('zlPikaday', function() {
@@ -47,3 +48,4 @@ angular.module('zenlabs.directives', [])
     }
   };
 });
+})();
